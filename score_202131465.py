@@ -8,7 +8,7 @@ counter = 1
 csv_raw = [] # list to import raw data
 gradeList = [] # list to put in number data
 
-# <=== open CSV file ===>
+# open CSV file
 infile = open("grades.csv", 'r')
 for line in infile:
     csv_raw.append(line.rstrip())
