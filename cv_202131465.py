@@ -17,7 +17,7 @@ hint: import glob # imgs = glob.glob("*.jpg")
 
 """
 
-# <<=== ACTUAL CODE STARTS HERE ===>>
+# <<=== CODE START ===>>
 
 
 # import required libraries
