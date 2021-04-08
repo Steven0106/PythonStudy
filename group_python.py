@@ -39,7 +39,7 @@ for i in range (10):
     assign_dict[i+1] = "group"+str(i+1)
 print(assign_dict)
 
-# 현재까지 총 학생 수
+# student per cycle
 student_number_tracker = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 print(total_student)
@@ -90,5 +90,5 @@ for i in range(10):
 
 my_writing_wb.remove(my_writing_wb['Sheet'])
 
-# 최종적으로 파일을 현재 py 파일과 같은 폴더에 저장
+# py 파일과 같은 폴더에 저장
 my_writing_wb.save("group_python.xlsx")
